@@ -13,7 +13,7 @@
       <img class="logo" src="./assets/Logo.svg" alt="Fort Logo">
       <ul class="nav-list">
         <a href="./index.html"><li class="list-items">Home</li></a>
-        <a href=""><li class="list-items">About Us</li></a>
+        <a href="./about-us.html"><li class="list-items">About Us</li></a>
         <a href="./properties.html"><li class="list-items">Our Properties</li></a>
         <a href=""><li class="list-items">Contact Us</li></a>
         <a href=""><li class="list-items">
@@ -206,7 +206,7 @@
     <section class="pd-container">
       <div class="description-container">
         <div class="toggle-items">
-          <div class="item1 active">
+          <div class="item1 active" id="item1">
             <img src="./assets/doc.svg" alt="document icon">
             <p>Details</p>
           </div>
@@ -248,17 +248,73 @@
             </div>
           </div>
 
-          <div class="map" id="map">
+          <div class="map block" id="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15856.482148220834!2d3.3338563316925858!3d6.506422765416889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8c23d6eba1a3%3A0xf4fcd3895789e7e1!2sIkate%2C%20Lagos!5e0!3m2!1sen!2sng!4v1689314618717!5m2!1sen!2sng" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
 
-          <div class="area-guide" >
+          <div class="area-guide block" >
             <p id="area-guide"></p>
           </div>
         </div>
       </div>
+
+      <div class="show-property">
+        <p>Interested in the property?</p>
+        <a href=""><button class="show-btn">Show Phone</button></a>
+      </div>
     </section>
   </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="social-section">
+        <img class="logo" src="./assets/Logo.svg" alt="Fort Logo">
+        <div class="copyright">
+          <p>2022 - <span id="date"></span> Fort Estate</p>
+        </div>
+        <div class="social-container">
+          <a href="">
+            <div class="social"><img class="social-icons" src="./assets/facebook.svg" alt=""></div>
+          </a>
+          <a href="">
+            <div class="social"><img class="social-icons" src="./assets/twitter.svg" alt=""></div>
+          </a>
+          <a href="">
+            <div class="social"><img class="social-icons" src="./assets/instagram.svg" alt=""></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="address-container">
+          <p class="address">Head Office: 23 Stadium road by Elekahia Housing estate Port Harcourt, River State</p>
+          <p>Phone: +2349012779032, +2348035138299</p>
+          <p>Email:support@xyz.com</p>
+        </div>
+
+        <div class="footer-links-container">
+          <div class="footer-links">
+            <a href="./index.html">Home</a>
+            <a href="./about-us.html">About Us</a>
+            <a href="./properties.html">Our Properties</a>
+            <a href="">Terms of Use</a>
+          </div>
+          <div class="footer-links">
+            <a href="">Privacy Policy</a>
+            <a href="">Contact Us</a>
+            <a href="">FAQ</a>
+          </div>
+        </div>
+
+        <form action="">
+          <p>Subscribe to our newsletter</p>
+          <input type="text" name="name" id="" placeholder="Name" required>
+          <input type="email" name="email" id="" placeholder="Email" required>
+          <button class="submit-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </footer>
 
   <script src="./js/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
