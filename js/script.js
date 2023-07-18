@@ -39,9 +39,3 @@ item3.addEventListener('click', () => {
     item1.classList.remove('active')
   }
 })
-
-document.getElementById("date")
-
-let currentDate = new Date();
-let year = currentDate.getFullYear();
-date.innerHTML = year;
