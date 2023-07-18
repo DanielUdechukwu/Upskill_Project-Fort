@@ -216,20 +216,22 @@ input::placeholder {
 }
 
 .property-section {
-  margin: 4rem 0;
+  margin: 4rem auto;
+  width: 90%;
 }
 
 .property-text {
-  width: 70%;
-  margin: 0 auto;
+  width: 90%;
+  margin: 2rem auto .5rem auto;
   text-align: center;
-  font-size: .9rem;
-  font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #5e5b5b;
 }
 
 .card-container {
-  width: 95%;
-  margin: 3rem auto 0 auto;
+  /* width: 95%; */
+  margin: 1.5rem auto 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(22.5rem, 1fr));
   grid-column-gap: 1rem;
