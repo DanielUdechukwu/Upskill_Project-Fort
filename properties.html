@@ -34,17 +34,17 @@
         <input type="text" placeholder="Min. Price">
         <input type="text" placeholder="Max. Price">
       </div>
-      <div class="search-btn-container">
+      <!-- <div class="search-btn-container">
         <button class="search-btn">Search</button>
-      </div>
+      </div> -->
     </section>
     <section class="property-section">
-      <!-- <div class="explore">
-        <h3>Explore More</h3>
-        <a href=""><p>See All</p></a>
-      </div> -->
+      <div class="header-div">
+        <h3 class="property-header">Explore More</h3>
+        <a class="see-all" href=""><p>See All</p></a>
+      </div>
 
-      <div>
+      <div class="container-main">
         <p class="property-text">Choose the house of your dreams, explore unlimited possibilities design specifically for your tasteGive yourself the vacation home you deserved anywhere in the world</p>
 
         <div class="card-container">
@@ -57,7 +57,7 @@
               <p class="property-name">De Villa Abuja</p>
               <div class="price-text">
                 <p class="price">Price</p>
-                <img class="like-icon" src="./assets/Outline.svg" alt="">
+                <!-- <img class="like-icon" src="./assets/Outline.svg" alt=""> -->
               </div>
               <p class="property-price">$ 250,000,000</p>
               <p class="property-size">3 Bedrooms | 3 Baths | 700 Sq ft</p>
@@ -74,7 +74,7 @@
               <p class="property-name">De Villa Abuja</p>
               <div class="price-text">
                 <p class="price">Price</p>
-                <img class="like-icon" src="./assets/Outline.svg" alt="">
+                <!-- <img class="like-icon" src="./assets/Outline.svg" alt=""> -->
               </div>
               <p class="property-price">$ 250,000,000</p>
               <p class="property-size">3 Bedrooms | 3 Baths | 700 Sq ft</p>
@@ -91,7 +91,7 @@
               <p class="property-name">De Villa Abuja</p>
               <div class="price-text">
                 <p class="price">Price</p>
-                <img class="like-icon" src="./assets/Outline.svg" alt="">
+                <!-- <img class="like-icon" src="./assets/Outline.svg" alt=""> -->
               </div>
               <p class="property-price">$ 250,000,000</p>
               <p class="property-size">3 Bedrooms | 3 Baths | 700 Sq ft</p>
@@ -156,81 +156,26 @@
     <section class="carousel-section">
       <div class="left-section">
         <div>
-          <div class="on-sale">
-            <p>3 bedroom flat / apartment for sale</p>
-            <span>₦100,000,000</span>
-          </div>
-          <div class="location">
-            <img src="./assets/location-pin.svg" alt="Location pin">
-            <p>Ikate, Ikeja, Lagos</p>
-          </div>
+          <h3 class="carousel-header">Recommendations</h3>
         </div>
 
-        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="./assets/house1.png" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./assets/house2.png" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./assets/house3.png" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./assets/house4.png" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./assets/house5.png" />
-            </div>
-          </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
+        <div class="main-display">
+          <img src="./assets/house1.png" alt="">
         </div>
-
-        <div thumbsSlider="" class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="./assets/house1.png" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./assets/house2.png" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./assets/house3.png" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./assets/house4.png" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./assets/house5.png" />
-            </div>
-          </div>
+        <div class="mini-display">
+          <img src="./assets/mini1.png" alt="">
+          <img src="./assets/mini2.png" alt="">
+          <img src="./assets/mini3.png" alt="">
+          <img src="./assets/mini4.png" alt="">
         </div>
       </div>
     </section>
 
     <section class="pd-container">
       <div class="description-container">
-        <div class="toggle-items">
-          <div class="item1 active">
-            <img src="./assets/doc.svg" alt="document icon">
-            <p>Details</p>
-          </div>
-          <div class="item2">
-            <img src="./assets/map.svg" alt="map icon">
-            <p>Map</p>
-          </div>
-          <div class="item3">
-            <img src="./assets/swiggy.svg" alt="Area locator icon">
-            <p>Area Guide</p>
-          </div>
-        </div>
-
-        <div class="property-description">
+        <div class="description">
           <div class="details" id="details">
             <h3 class="title">Property Description</h3>
-            <p class="subtitle">*For Sale*Fully</p>
             <div class="flat-features">
               <p>Fitted and Furnished 3 Bedroom Flat with BQ.</p>
               <p>Features of the 3 bed flat:</p>
@@ -254,38 +199,84 @@
               <p>Location: PRIMEWATER GARDENS 2, IKATE ELEGUSHI.</p>
             </div>
           </div>
-
-          <div class="map" id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15856.482148220834!2d3.3338563316925858!3d6.506422765416889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8c23d6eba1a3%3A0xf4fcd3895789e7e1!2sIkate%2C%20Lagos!5e0!3m2!1sen!2sng!4v1689314618717!5m2!1sen!2sng" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-
-          <div class="area-guide" >
-            <p id="area-guide"></p>
-          </div>
         </div>
+
+        <div class="map-container" id="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15856.482148220834!2d3.3338563316925858!3d6.506422765416889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8c23d6eba1a3%3A0xf4fcd3895789e7e1!2sIkate%2C%20Lagos!5e0!3m2!1sen!2sng!4v1689314618717!5m2!1sen!2sng" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+        <!-- <div class="toggle-items">
+          <div class="item1 active">
+            <img src="./assets/doc.svg" alt="document icon">
+            <p>Details</p>
+          </div>
+          <div class="item2">
+            <img src="./assets/map.svg" alt="map icon">
+            <p>Map</p>
+          </div>
+          <div class="item3">
+            <img src="./assets/swiggy.svg" alt="Area locator icon">
+            <p>Area Guide</p>
+          </div>
+        </div> -->
+      </div>
+      <div class="interest-btn">
+        <button>Interested?</button>
       </div>
     </section>
   </main>
 
+  <footer>
+    <div class="footer-container">
+      <div class="social-section">
+        <img class="logo" src="./assets/Logo.svg" alt="Fort Logo">
+        <div class="copyright">
+          <p class="date">2022 - 2023 Fort Estate</p>
+        </div>
+        <div class="social-container">
+          <a href="">
+            <div class="social"><img class="social-icons" src="./assets/facebook.svg" alt=""></div>
+          </a>
+          <a href="">
+            <div class="social"><img class="social-icons" src="./assets/twitter.svg" alt=""></div>
+          </a>
+          <a href="">
+            <div class="social"><img class="social-icons" src="./assets/instagram.svg" alt=""></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="address-container">
+          <p class="address">Head Office: 23 Stadium road by Elekahia Housing estate Port Harcourt, River State</p>
+          <p>Phone: +2349012779032, +2348035138299</p>
+          <p>Email:support@xyz.com</p>
+        </div>
+
+        <div class="footer-links-container">
+          <div class="footer-links">
+            <a href="">Home</a>
+            <a href="">About Us</a>
+            <a href="">Our Properties</a>
+            <a href="">Terms of Use</a>
+          </div>
+          <div class="footer-links">
+            <a href="">Privacy Policy</a>
+            <a href="">Contact Us</a>
+            <a href="">FAQ</a>
+          </div>
+        </div>
+
+        <form action="">
+          <p>Subscribe to our newsletter</p>
+          <input type="text" name="name" id="" placeholder="Name" required>
+          <input type="email" name="email" id="" placeholder="Email" required>
+          <button class="submit-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </footer>
+
   <script src="./js/script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-  <script>
-    let swiper = new Swiper(".mySwiper", {
-      spaceBetween: 10,
-      slidesPerView: 4,
-      freeMode: true,
-      watchSlidesProgress: true,
-    });
-    let swiper2 = new Swiper(".mySwiper2", {
-      spaceBetween: 10,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      thumbs: {
-        swiper: swiper,
-      },
-    });
-  </script>
 </body>
 </html>
