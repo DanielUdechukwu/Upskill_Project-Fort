@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway";
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  border-bottom: 1px solid #ddd;
+}
+
+nav {
+  padding: .6rem 0;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 3rem;
+  margin-right: auto;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-list a {
+  display: flex;
+  align-items: center;
+}
+
+.list-items {
+  font-weight: 600;
+  color: #808080;
+}
+
+.nav-btn {
+  background: #3785fb;
+  padding: .7rem 1rem;
+  outline: none;
+  border: none;
+  border-radius: .3rem;
+  cursor: pointer;
+  font-family: 'Raleway';
+  font-weight: 600;
+  color: #1b437e;
+}
+
+
+.contactpic{width: 80%;
+height: 389.51873779296875px;
+top: 14.5px;}
+.contactimage{
+  object-fit: contain;
+ max-width:125%;
+  height:389.52;
+}
+
+
+.contactus{
+  width:860px;
+  height:852px;
+  
+  gap:16px;
+  padding:120px 250px;
+  display: flex;
+  flex-direction: column;
+  color:#9e9d9d;
+  
+  font-size: medium;
+}
+.name{background-color:white;
+  width:865px;
+  height:51px;
+  padding:16px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #000;
+  border-width:1px ;
+  
+}
+
+.email{background-color:white;
+  width:865px;
+  height:51px;
+  padding:16px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #000;
+  border-width:1px ;
+  
+}
+
+
+.phone{background-color:white;
+  width:865px;
+  height:51px;
+  padding:16px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #000;
+  border-width:1px ;
+
+  
+}
+
+
+.message{background-color:white;
+  width:865px;
+  height:200px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #000;
+  border-width:1px ;
+  
+  
+}
+
+.landlord{width:800px;
+height:32px;
+display: flex;
+flex-direction: row;
+gap:2px;
+vertical-align: middle;
+padding-left:0px;
+
+}
+label,input{display:inline-block;
+}
+.checkbox{
+display:inline-block
+}
+.check{
+  width:20px;
+  height:20px;}
+
+  .sendbtn{
+   
+background-color: #3785fb;
+width:860px;
+height:51px;
+padding:16px 20px 16px 20px;
+border-radius: 8px;
+border-color: #3785fb;
+  }
+
+  .send{
+    color: #000;
+  }
+
+
+
+
+
+
+
+
+
+
+/* Footer styling */
+
+footer {
+    background: #646262;
+  }
+  
+  .footer-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .social-section {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 2rem 0;
+    border-bottom: 1px solid #9e9d9d;
+  }
+  
+  .copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .social {
+    background: #fff;
+    padding: .3rem;
+    border-radius: .4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social-icons {
+    height: 1.5rem; 
+  }
+  
+  .footer-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5rem 0;
+  }
+  
+  .address-container,
+  .footer-links a,
+  form p{
+    font-size: .9rem;
+    font-weight: 600;
+    color: #ddd;
+  }
+  
+  .address-container p {
+    padding-bottom: .6rem;
+  }
+  
+  .address {
+    width: 90%;
+  }
+  
+  .footer-links-container {
+    display: flex;
+    gap: 4rem;
+  }
+  
+  .footer-links a {
+    display: block;
+    padding-bottom: .6rem;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  form p {
+    padding-bottom: .2rem;
+  }
+  
+  input {
+    width: 70%;
+    display: block;
+    padding: .8rem 1rem;
+    margin-bottom: .5rem;
+    border-radius: .3rem;
+    border: none;
+    outline: none;
+  }
+  
+  .submit-btn {
+    padding: .5rem 1.5rem;
+    border: none;
+    border-radius: .3rem;
+    font-size: .8rem;
+    font-weight: 600;
+    font-family: 'Raleway';
+    background: #3785fb;
+    color: #1b437e;
+    cursor: pointer;
+  }
+  
+  input::placeholder {
+    font-family: 'Raleway';
+    font-size: .8rem;
+    font-weight: 600;
+  }
+
+  //small devices (landscape phones,576px and up)
+@media only screen and (max-width:428px){
+  .contactus{
+    width:80%;
+  }
+
+  header{
+    width:80%;
+  }
+
+}
+@media only screen  and (min-width:396px){
+
+}
+@media  only screen and(min-width:992px){
+}
