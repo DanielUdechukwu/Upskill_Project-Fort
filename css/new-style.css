@@ -535,3 +535,130 @@ ul {
 }
 
 /* FAQ End */
+
+/* Sign Up Section */
+
+.signup-body {
+  background: #fff;
+}
+
+.signup-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.form-container {
+  background: rgba(0, 0, 0, 0.8)url("../assets/form-bg.png");
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.form-container form {
+  background: #fff;
+  padding: 2rem 3rem;
+  margin: 3rem 0;
+  border-radius: .4rem;
+  width: 40%;
+}
+
+.alt-signup {
+  display: flex;
+  align-items: center;
+  gap: .2rem;
+  width: 100%;
+  border-radius: 5rem;
+  border: 1px solid #ddd;
+  outline: none;
+  padding: .3rem 0 .3rem 4rem;
+  background: #fff;
+  margin: 1.2rem 0;
+}
+
+.alt-signup p {
+  font-weight: 500;
+  color: #000;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1.2rem 0;
+}
+
+.input-container label {
+  padding-bottom: .4rem;
+  font-size: .8rem;
+  font-weight: 600;
+}
+
+.input-container input {
+  border: 1px solid #ddd;
+  outline: none;
+  padding: .8rem 1rem;
+  border-radius: 5rem;
+}
+
+.check-landlord {
+  display: flex;
+  gap: .6rem;
+  align-items: center;
+  justify-content: center;
+  margin: 1.2rem 0;
+}
+
+input.larger {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.check-landlord p {
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+}
+
+.signup-container button {
+  background: #3785fb;
+  border: none;
+  outline: none;
+  padding: .8rem 4rem;
+  margin: 1.2rem 0;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5rem;
+}
+
+.have-account {
+  text-align: center;
+  font-size: .8rem;
+  font-weight: 600;
+}
+
+.login-link {
+  color: #e81414;
+}
+
+.signup-footer {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding-top: 4rem;
+}
+
+.signup-footer p {
+  font-weight: 700
+}
+
+/* Signup End */
