@@ -1,0 +1,48 @@
+.swipe {
+  width: 100%;
+  position: relative;  
+}
+
+.swiper {
+  margin-bottom: 0 !important;
+}
+
+.swiper-slide {
+  width: 45% !important;
+  margin: 3rem !important;
+  border-radius: 1.2rem;
+  background: #fff;
+  margin-right: auto;
+}
+
+.swiper-wrapper {
+  background: transparent;
+}
+
+.swiper-slide p {
+  margin-top: 1.5rem;
+  padding: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: italic;
+  color: #000;
+  text-align: center;
+}
+
+.testimonial-img {
+  width: 6rem !important;
+  height: 6rem !important;
+  border-radius: 50%;
+  position: absolute !important;
+  top: -2.5rem;
+  left: .2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px .5rem 1.5rem;
+}
+
+.testimonial-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+}

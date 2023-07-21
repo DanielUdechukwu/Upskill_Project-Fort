@@ -464,7 +464,7 @@ iframe {
   margin-bottom: 2rem;
 }
 
-.toggle-items {
+/* .toggle-items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -494,7 +494,7 @@ iframe {
   background: #fff;
   color: #d10000;
   border-bottom: none;
-}
+} */
 
 .title {
   font-size: 1.2rem;
