@@ -221,7 +221,7 @@ nav {
 }
 
 .see-all {
-  display: none;
+  visibility: hidden;
 }
 
 .property-text {
@@ -256,6 +256,7 @@ nav {
 
 .img-section {
   position: relative;
+  z-index: 1;
 }
 
 .img-section img {
@@ -450,6 +451,34 @@ iframe {
 
 .pd-container {
   margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.flat-features {
+  margin-bottom: 1.5rem;
+}
+
+.flat-features p,
+.flat-features ul li,
+.flat-accessories p,
+.flat-accessories ul li {
+  line-height: 1.4rem;
+  font-weight: 600;
+}
+
+.flat-price {
+  margin-top: 1.5rem;
+}
+
+.flat-price p {
+  margin: 1rem 0;
+  font-weight: 600;
 }
 
 /* Properties End */
@@ -811,6 +840,7 @@ input::placeholder {
 
   .nav-list{
     position: fixed;
+    z-index: 2;
     right: -100%;
     top: 4.2rem;
     gap: 0;
@@ -878,7 +908,64 @@ input::placeholder {
   footer form {
     margin-top: 1.5rem;
   }
+  footer form input {
+    width: 100%;
+  }
+  .date{
+    font-weight: 600;
+    font-size: .8rem;
+  }
   /* Footer */
+
+  .search-section {
+    display: none;
+  }
+  .property-header {
+    margin: 2rem 0;
+  }
+  .header-div {
+    align-items: center;
+    justify-content: space-between;
+  }
+  .see-all {
+    visibility: visible;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  .carousel-section {
+    width: 95%;
+  }
+  .main-display {
+    height: 20rem;
+  }
+  .mini-display img:nth-child(4){
+    display: none;
+  }
+  .mini-display img {
+    width: calc(100% - 5rem);
+  }
+  .pd-container {
+    margin-top: .5rem;
+    width: 95%;
+  }
+  .description-container {
+    flex-direction: column;
+  }
+  .description {
+    width: 100%;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .details {
+    padding: 1rem 0;
+  }
+  .map-container {
+    width: 100%;
+  }
+  .details {
+    padding: 2rem 1rem;
+  }
 }
 
 /* Responsiveness End */
