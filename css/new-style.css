@@ -1047,6 +1047,9 @@ input::placeholder {
   .interest-btn button {
     width: 100%;
   }
+  .faq-section {
+    width: 95%;
+  }
 }
 
 /* Responsiveness End */
