@@ -1026,6 +1026,27 @@ input::placeholder {
   .footer-links {
     margin-bottom: 1rem;
   }
+  .header-div {
+    width: 95%;
+  }
+  .property-text {
+    width: 95%;
+  }
+  .card-container {
+    width: 95%;
+  }
+  .mini-display img:nth-child(3){
+    display: none;
+  }
+  .mini-display img {
+    width: calc(100% - 5rem);
+  }
+  .description-container {
+    margin-bottom: 0;
+  }
+  .interest-btn button {
+    width: 100%;
+  }
 }
 
 /* Responsiveness End */
