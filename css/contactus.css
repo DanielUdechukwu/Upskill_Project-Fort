@@ -97,6 +97,10 @@ top: 14.5px;}
   
 }
 
+/* .name, .phone, .email{
+
+} */
+
 .email{background-color:white;
   width:865px;
   height:51px;
@@ -164,15 +168,6 @@ border-color: #3785fb;
   .send{
     color: #000;
   }
-
-
-
-
-
-
-
-
-
 
 /* Footer styling */
 
@@ -286,19 +281,95 @@ footer {
     font-weight: 600;
   }
 
-  //small devices (landscape phones,576px and up)
-@media only screen and (max-width:428px){
-  .contactus{
-    width:80%;
+  @media only screen and (max-width:769px) {
+    
+    header{
+      position: relative;
+      z-index: 1000;
+    }
+    .nav-list{
+      display: none;
+    }
+    .contactpic{
+      position: absolute;
+      height: 400px;
+    }
+    .contactimage{
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .contactus{
+      margin: 400px auto 0;
+    }
+
+    footer{
+      /* background-color: #E3E4E7; */
+      color: #000000;
+    }
+    .contactus, .name, .email, .phone, .message, .landlord, .send, .sendbtn{
+      width: 95%;
+      padding: 2px ;
+      color: #000000;
+
+    }
+
+    .address-container{
+      margin-bottom: 10px;
+    }
+
+    .address{
+      line-height: 30px;
+    }
+    .footer-bottom{
+      display: block;
+      color: #000000;
+
+    }
+
+    .footer-container{
+      position: relative;
+    }
+    .social-section{
+      position: absolute;
+      bottom: 0;
+
+    }
+    .social-section .logo{
+      display: none;
+    }
+
+    .footer-links-container {
+      display: block;
+    }
+
+    .social-container{
+      margin-top: 120px;
+    }
+
+    .social-section{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .footer-last{
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .copyright p{
+      text-align: center;
+    }
+    .social-container{
+   display: flex;
+   justify-content: center;
+    }
+   
+
+    .footer-last form, .footer-last input, .footer-last p{
+      width: 100%;
+    }
+    .footer-last{
+      margin-bottom: 50px;
+    }
   }
-
-  header{
-    width:80%;
-  }
-
-}
-@media only screen  and (min-width:396px){
-
-}
-@media  only screen and(min-width:992px){
-}
