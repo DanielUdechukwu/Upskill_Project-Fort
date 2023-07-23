@@ -1050,6 +1050,10 @@ input::placeholder {
   .faq-section {
     width: 95%;
   }
+  .form-container form {
+    width: 95%;
+    padding: 2rem;
+  }
 }
 
 /* Responsiveness End */
