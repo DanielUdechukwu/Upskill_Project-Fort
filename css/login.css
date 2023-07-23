@@ -21,9 +21,6 @@ ul {
 
 header {
   border-bottom: 1px solid #ddd;
-  height:150px;
-  
- 
 }
 
 nav {
@@ -32,7 +29,10 @@ nav {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  height:100px;
+}
+
+button {
+  font-family: 'Raleway';
 }
 
 .logo {
@@ -67,156 +67,127 @@ nav {
   color: #1b437e;
 }
 
-.welcomebox{
-  width:247px;
-  height:54px;
-  top:90px;
-  left:62px;
-  display:block;
-  gap:8px;
-  margin-right: auto;
-  position:absolute;
-
+.login-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: cen ter; */
+  height: 8rem;
+  font-size: 2rem;
+  font-weight: 700;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .welcome{
   color:#3785fb;
-  font-weight: bolder;
+  font-weight: 500;
+  font-size: 1.5rem;
 }
 
-.loghead{
-  text-align:center;
+.login-text {
+  text-align: center;
 }
 
 
 .login{
-    background-image: url(/Users/hp/Downloads/loginpic.png);
-    width:100%;
-    height:890px;
-    background-position: center;
+  background: rgba(0, 0, 0, 0.8)url("../assets/form-bg.png");
+  background-repeat: repeat;
+  background-size: auto;
+  background-blend-mode: darken;  
+  width:100%;
+  /* height:890px; */
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding:120px 220px;
+  padding: 3.5rem 0;
 }
 
 .fill{
-    width:860px;
-    height:656px;
-    padding:40px 200px 40px 200px;
-    border-radius:8px;
-    top:369.88px;
-    left:100px;
-    gap:16px;
-    background-color: #fff;
-    display:flex;
-    flex-direction:column;
-    
-    
+  width:40%;
+  margin: 0 auto;
+  border-radius:8px;
+  background-color: #fff;
+  display:flex;
+  flex-direction:column;  
 }
 .log{
   border-radius:30px;
-  width:429px;
-  height:458px;
+  width: 100%;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   gap:5px;
   color:#808080
 }
 
-.form{
-  width:420px;
-  height:78px;
-  top:134px;
-  left:220px;
-  gap:8px;
-
+.form input{
+  width: 100%;
+  margin-bottom: 1rem
 }
 
 .email{
-  width:420px;
-  height:51px;
   padding:16px;
   border-radius: 30px;
-  border-style: solid;
-  border-color: #000;
-  border-width:1px ;
-  gap:8px;
-  
+  border: 1px solid #dddddd;
+  outline: none;
 }
 
 .password{
   width:420px;
-  height:51px;
   padding:16px;
   border-radius: 30px;
-  border-style: solid;
-  border-color: #000;
-  border-width:1px ;
-  gap:10px;
-  
+  border: 1px solid #dddddd;
+  outline: none;
 }
 
 .logbtn{
   border-radius:30px;
-  width:400px;
-  height:51px;
-  gap:10px;
+  width: 100%;
   padding:16px 20px;
   background-color:#3785fb;
-  border-width:0px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 1rem 0;
 }
 
 .btntext{
-  color:#000;
-  
+  color:#fff;
+  font-size: .9rem;
+  font-weight: 600;
 }
 
 .underbox{
-  width:104px;
-  height:19px;
-  gap:10px;
-  top:295px;
-  left:378px;
-  vertical-align:middle;
-  float:right;
-  align-self: center;
-
 
 }
 .undertxt{
   color:#000;
   text-align:center;
-  line-height: 19.2px;
-  
-  
+  font-weight: 600;
+  margin-bottom: 2rem;
 }
 
 .logoption{
-  width:414px;
-  height:63px;
-  top:330px;
-  left:223px;
+  width: 100%;
   gap:8px;
   display:flex;
-  flex-direction: row;
 }
 
 .googlebox{
-width: 203px;
-height: 63px;
-padding: 7px 0px 6px 0px;
-border-radius: 10px;
-border: 1px;
-border-style: solid;
-align-items: center;
-justify-content: center;
-display:flex;
+  width: 50%;
+  padding: 7px 0px 6px 0px;
+  border-radius: 10px;
+  border: 1px solid #845fef;
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  cursor: pointer;
 
 }
 
 .google{
   width:50px;
-  height: 50px;
   top:7px;
   left:76px;
   align-self: center;
@@ -224,14 +195,13 @@ display:flex;
 }
 
 .FBbox{
-  width: 203px;
-height: 63px;
-padding: 7px 0px 6px 0px;
-border-radius: 10px;
-border: 1px;
-border-style: solid;
-justify-content: center;
-display:flex;
+  width: 50%;
+  padding: 7px 0px 6px 0px;
+  border-radius: 10px;
+  border: 1px solid #845fef;
+  justify-content: center;
+  display:flex;
+  cursor: pointer;
 }
 
 .facebook{
@@ -243,56 +213,121 @@ display:flex;
 }
 
 .termsbox{
-  width:429px;
-  height:54px;
-  gap:8px;
-  top:409;
-  left:215.5px;
-
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .terms{
   width:429px;
-  height:17px;
-  align-self: center;
-  
+  align-items: center;
   line-height: 16.8px;
   color: #000;
  font-size:14px;
  text-align: center;
- font: weight 500px;
+ font-weight: 600;
+ margin-bottom: 3rem;
 }
 
+.noacct {
+  display: flex;
+  justify-content: center;
+}
 
+.login-footer {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding-top: 4rem;
+  background: #fff;
+  font-weight: 600;
+}
 
 .red{
   color:red
 }
-/* Footer styling */
 
-footer {
+@media (max-width: 720px) {
+  .hamburger{
+    cursor: pointer;
+    background: #3785fb;
+    padding: .4rem;
+    border-radius: .2rem;
+  }
+  .bar{
+    display: block;
+    width: 1.8rem;
+    height: .2rem;
+    margin: .3rem auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: #fff;
+    border-radius: 10px;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-list{
+    position: fixed;
+    z-index: 2;
+    right: -100%;
+    top: 4.2rem;
+    gap: 0;
+    flex-direction: column;
+    background: #f8f8f8;
+    width: 50%;
+    transition: .3s;
+    text-align: center;
+  }
+
+  .list-items{
+    padding: 1.8rem 1.5rem;
+    width: 100%;
+    text-align: start;
+  }
+
+  .list-items:hover {
     background: #fff;
   }
-  
-  .footer-container {
-    width: 90%;
-    margin: 0 auto;
-    height:60px;
-    padding:16px 20px
-  }
-  
-  
-  
-  .copyright {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:#000;
-    
-    top: 1218px;
-    left: 626.92px
 
-    
+  .list-item-btn:hover {
+    background: #f8f8f8;
   }
-  
-  
+
+  .nav-list.active{
+    right: 0;
+  }
+  .fill {
+    width: 80%;
+  }
+}
+
+@media (max-width: 520px) {
+  .fill {
+    width: 95%;
+  }
+  .logoption {
+    flex-direction: column;
+  }
+  .googlebox,
+  .FBbox {
+    width: 100%;
+  }
+  .googlebox img,
+  .FBbox img{
+    height: 2rem;
+  }
+  .nav-list {
+    width: 100%;
+  }
+}
