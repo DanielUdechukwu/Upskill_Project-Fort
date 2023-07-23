@@ -601,14 +601,26 @@ ul {
 .alt-signup {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: .2rem;
   width: 100%;
   border-radius: 5rem;
   border: 1px solid #ddd;
   outline: none;
-  padding: .3rem 0 .3rem 4rem;
+  padding: .3rem 0;
   background: #fff;
   margin: 1.2rem 0;
+}
+
+.alt-signup > div {
+  display: flex;
+  gap: .4rem;
+  align-items: center;
+  width: 50%;
+}
+
+.alt-signup > div > img {
+  height: 2.1rem;
 }
 
 .alt-signup p {
@@ -633,6 +645,7 @@ ul {
   outline: none;
   padding: .8rem 1rem;
   border-radius: 5rem;
+  width: 100%;
 }
 
 .check-landlord {
@@ -651,6 +664,7 @@ input.larger {
 .check-landlord p {
   font-size: .9rem;
   font-weight: 600;
+  color: #676774;
 }
 
 .signup-container {
@@ -674,6 +688,7 @@ input.larger {
   text-align: center;
   font-size: .8rem;
   font-weight: 600;
+  color: #676774;
 }
 
 .login-link {
@@ -685,6 +700,7 @@ input.larger {
   justify-content: center;
   align-items: baseline;
   padding-top: 4rem;
+  background: #fff;
 }
 
 .signup-footer p {
@@ -974,6 +990,10 @@ input::placeholder {
   }
   .faq-section {
     width: 90%;
+  }
+
+  .form-container form {
+    width: 80%;
   }
 }
 
