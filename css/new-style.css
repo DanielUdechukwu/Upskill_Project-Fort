@@ -997,4 +997,35 @@ input::placeholder {
   }
 }
 
+@media (max-width: 520px) {
+  .nav-list {
+    width: 100%;
+  }
+  .social-section {
+    grid-template-columns: repeat(1, 1fr);
+    padding-bottom: .3rem;
+  }
+  .copyright {
+    order: 2;
+  }
+  .social-container {
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .footer-logo {
+    display: none;
+  }
+  .footer-bottom {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 3rem 0;
+  }
+  .address-container {
+    width: 80%;
+  }
+  .address-container,
+  .footer-links {
+    margin-bottom: 1rem;
+  }
+}
+
 /* Responsiveness End */

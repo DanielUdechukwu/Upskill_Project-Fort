@@ -43,3 +43,18 @@
     width: 95%;
   }
 }
+
+@media (max-width: 520px) {
+  .swiper-slide {
+    padding: 1rem 0;
+  }
+  .testimonial-img {
+    width: 6rem !important;
+    height: 6rem !important;
+    top: -2.5rem;
+  }
+  .swiper-slide p {
+    font-size: .9rem;
+    padding: 2rem 1rem;
+  }
+}
